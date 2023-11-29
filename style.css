@@ -291,11 +291,18 @@ nav ul li a:hover::after{
     border: 1px solid #ff004f;
     font-weight: bold;
     margin: 2rem auto;
-    transition: background 0.5s;
+    transition: 10ms ease-in-out;
+    color: #b54769;
+    cursor: pointer;
 }
 
 #button_click:hover{
     background: #ff004f;
+    color: #fff;
+}
+
+#button_click:hover {
+    /* background: #ff004f; */
 }
 
 /*------------------Contact-------------------*/
@@ -330,6 +337,10 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
 .social-icons a:hover{
     color: #ff004f;
     transform: translateY(-5px);
